@@ -10,7 +10,7 @@ class DemoApplicationTests {
 
     @Test
     void contextLoads() {
-        HttpURLConnectionUtil.getResult("http://localhost:9090/api/getJSON", User.class);
+//        HttpURLConnectionUtil.getResult("http://localhost:9090/api/getJSON", User.class);
     }
 
 }
