@@ -103,6 +103,6 @@ public class JSONCreateController {
     @ApiOperation(value = "getJSON", response = String.class)
     @GetMapping("/toJson")
     public String demo2(){
-      return   HttpURLConnectionUtil.getResult("http://localhost:9090/api/getJSON", User.class);
+      return   HttpURLConnectionUtil.getResult("http://192.168.111.129:9090/api/getJSON", User.class);
     }
 }
